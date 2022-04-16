@@ -1,1 +1,1 @@
-Esse é o arquivo de pedidos
+Este é o arquivo de pedidos.

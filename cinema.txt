@@ -1,0 +1,41 @@
+ for(l = 0; l < 25; l++){
+      for(c = 0; c < 30; c++){
+        sala[l][c] = 0
+      print("0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29\n")
+      for(l = 0; l < 25; l++)
+        for(c = 0; c < 30; c++)
+          print(sala[l][c], "  "
+         print("  ", l, "\n")
+      print("Digite o total de lugares disponiveis: ")
+      print(linha, coluna
+      if(linha < 0 ou linha > 24)
+        then("\nLinha inválida. Digite outra linha válida!\n")
+      else
+        if(coluna < 0 ou coluna > 29){
+          print("\nColuna inválida. Digite outra coluna válida!\n")
+        then
+          if(sala[linha][coluna] == 1)
+     if sala > len(lugares_vagos) or sala < 1:
+         print("Sala inválida")
+     elif lugares_vagos[sala-1] == 0:
+         print("Desculpe, sala lotada!")
+     else:
+         lugares = int(input("Quantos lugares você deseja (%d vagos):" % lugares_vagos[sala-1]))
+         if lugares > lugares_vagos[sala-1]:
+               print("Esse número de lugares não está disponível.")
+         elif lugares < 0:
+               print("Número inválido")
+         else
+               lugares_vagos[sala-1] -= lugares
+               print("%d lugares vendidos" % lugares)
+print("Utilização das salas")
+for x,l in enumerate(lugares_vagos):
+     print("Sala %d - %d lugar(es) vazio(s)" % (x+1, l)
+while True
+     sala = int(input("Sala (0 sai): "))
+     if sala == 0:
+         print("Fim")
+
+
+
+
